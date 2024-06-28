@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { redirect } from "next/navigation";
 
-import { getLoggedInUser } from "@/lib/actions/user.action";
+import { getLoggedInUser } from "@/lib/actions/user.actions";
 
 import SideBar from "@/components/SideBar";
 import MobileNav from "@/components/MobileNav";
@@ -16,7 +16,6 @@ export default async function RootLayout({
 
   if (!loggedIn) {
     redirect("/sign-in");
-    // return null;
   }
 
   return (

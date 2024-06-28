@@ -14,7 +14,7 @@ import { Button } from "@/components/ui/button";
 import { Form } from "@/components/ui/form";
 
 import { authFormSchema } from "@/lib/utils";
-import { signIn, signUp } from "@/lib/actions/user.action";
+import { signIn, signUp } from "@/lib/actions/user.actions";
 
 import CustomInput from "./CustomInput";
 import PlaidLink from "./PlaidLink";

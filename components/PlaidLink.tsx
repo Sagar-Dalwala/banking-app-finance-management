@@ -9,7 +9,7 @@ import {
 import {
   createLinkToken,
   exchangePublicToken,
-} from "@/lib/actions/user.action";
+} from "@/lib/actions/user.actions";
 
 import { Button } from "@/components/ui/button";
 
